@@ -224,7 +224,7 @@ section {
     justify-content: space-between;
 }
 
-.home-sci a {
+.about-sci a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -241,7 +241,7 @@ section {
     transition: .5s;
 }
 
-.home-sci a::before {
+.about-sci a::before {
     position: absolute;
     content: "";
     background: var(--main-color);
@@ -253,7 +253,7 @@ section {
     transition: .5s;
 }
 
-.home-sci a:hover::before {
+.about-sci a:hover::before {
     width: 100%;
 }
 
@@ -961,4 +961,49 @@ section:nth-child(even) .animate.scroll,
     100% {
         width: 0;
     }
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
