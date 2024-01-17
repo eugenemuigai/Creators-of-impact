@@ -366,18 +366,12 @@ span {
     padding-bottom: 5rem;
 }
 
-@media only screen and (min-width: 600px) {
-	.education .education-row {
+
+.education .education-row {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
 }
-}
-.education .education-row {
-    flex-wrap: wrap;
-    gap: 3rem;
-}
-
 .education-row .education-column {
     flex: 1 1 40rem;
 }
@@ -805,6 +799,11 @@ section:nth-child(even) .animate.scroll,
     #menu-icon {
         display: block;
     }
+	.education .education-row {
+    display: block;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
 
     .navbar {
         position: absolute;
