@@ -366,9 +366,16 @@ span {
     padding-bottom: 5rem;
 }
 
+@media only screen and (min-width: 600px) {
+	.education .education-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+}
 .education .education-row {
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .education-row .education-column {
