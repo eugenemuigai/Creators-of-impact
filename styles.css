@@ -359,7 +359,6 @@ span {
 /* education section design */
 
 .education {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -368,7 +367,6 @@ span {
 }
 
 .education .education-row {
-    display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
